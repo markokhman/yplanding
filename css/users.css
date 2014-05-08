@@ -1,0 +1,143 @@
+.top_bar {
+	width: 100%;
+	max-width: 1400px;
+	z-index: 500;
+	margin: 15px auto 0 auto;
+	position: relative;
+
+}
+
+.logo_wrap {
+	margin-left: 13.75%;
+}
+
+.right_wrap {
+	float: right;
+	margin-right: 13.75%;
+
+}
+
+.early_access {
+	background: transparent !important;
+border-radius: 7px !important;
+height: 30px !important;
+width: 300px !important;
+margin-top: 40px !important;
+color: white !important;
+font-family: 'Open Sans' !important;
+font-size: 19px !important;
+}
+
+.early_access_butt{
+	background: white;
+	border-style: inherit;
+border-radius: 7px !important;
+width: 125px !important;
+height: 40px !important;
+margin-top: 40px !important;
+
+}
+
+.bigiphone {
+	/*width: 30%;*/
+	margin-top: -300px;
+	margin-left : auto;
+	margin-right : auto;
+	text-align: center;
+
+}
+
+.front {
+	position: relative;
+	z-index: 20000;
+}
+
+
+.circular {
+	/*width: 130px;*/
+	/*height: 130px;*/
+	width: 110px;
+	margin-top: 23px;
+	margin-left: 23px;
+	cursor: pointer;
+	height: 109px;
+	float: left;
+	border-radius: 75px;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
+	/*background-size: 300px 150px;*/
+	/*background: url(images/photo.jpg) center center no-repeat;*/
+}
+
+.afav {
+	width: 155px;
+	height: 155px;	
+	/*display: block;*/
+	float: left;
+	background: url('../images/favsRound.png') center center no-repeat;
+	background-size: 120px 120px;
+	margin-bottom: 25px;
+}
+
+.afavtop {
+	margin-top: 18px; 
+	margin-left: 25px;
+}
+.afavtop {
+	margin-top: 18px; 
+	margin-left: 25px;
+}
+
+.favname {
+	margin-top: 145px;
+	width: 70%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+.bottom_butt {
+	border: 1px solid red !important;
+}
+
+.little_overlay{
+	width: 30px;
+	font-size: 57px;
+	/* text-align: center; */
+	margin-left: 62px;
+	cursor: pointer;
+	margin-top: 65px;
+	position: absolute;
+	color: rgb(231, 203, 53) !important;
+}
+
+.afav:hover #little_overlay {
+               opacity:1;}
+
+#plus       {  font-family:Helvetica;
+               font-weight:900;
+               color:rgba(255,255,255,.85);
+               font-size:40px;}
+
+.check_spot {
+	background: transparent;
+	border: 1px solid white;
+	color: white;
+	border-radius: 7px !important;
+	width: 165px !important;
+	height: 40px !important;
+	font-family: Open sans;
+	font-size: 20px;
+	margin-top: 40px !important;
+}
+.check_spot_bottom {
+	background: transparent;
+	border: 1px solid red;
+	color: red;
+	border-radius: 7px !important;
+	width: 165px !important;
+	height: 40px !important;
+	font-family: Open sans;
+	font-size: 20px;
+	margin-top: 40px !important;
+}
